@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.header{
+    height: 206px;
+    width: 100%;
+
+}
+
+#img_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#profile__img{
+    margin-bottom: 24px;
+    /* margin-top: 64px; */
+    width: 88px;
+    height: 88px;
+}
+#img_name{
+    font-weight: 700;
+    font-size: 20px;
+    color: #191828;
+    text-align: center;
+    line-height: 30px;
+}
+
+.icon-wrapper{
+    width: 100%;
+    height: 64px;
+}
+
+#profile_icon{
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    margin-left: 70%;
+    margin-bottom: -3.65%;
+    z-index: 10;
+}
+#profile_iconTwo{
+    visibility: hidden;
+}
+
+#icon_tag {
+    cursor: pointer;
+}
+
+#slack{
+    visibility: hidden;
+}
+
+@media (max-width:600px){
+    #profile_icon {
+            visibility: hidden;
+        }
+
+        #profile_iconTwo {
+            width: 40px;
+            height: 40px;
+            margin-left: 85%;
+            margin-bottom: -10%;
+            z-index: 10;
+            visibility: visible;
+        }
+}
