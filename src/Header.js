@@ -9,12 +9,12 @@ function Header() {
     <div className="header">
       <div className="icon-wrapper">
         <a id="icon_tag" href="#">
-          <img id="profile_icon" src={icon} />
-          <img id="profile_iconTwo" src={iconTwo} />
+          <img id="profile_icon" src={icon} alt="profile_icon" />
+          <img id="profile_iconTwo" src={iconTwo} alt="profile_iconTwo" />
         </a>
       </div>
       <div id="img_container">
-        <img id="profile__img" src={profile} alt="Profile image" />
+        <img id="profile__img" src={profile} alt="Profile" />
 
         <div id="img_name">Annette Black</div>
       </div>
